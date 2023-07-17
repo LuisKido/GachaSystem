@@ -86,7 +86,7 @@ namespace GachaSystem.BLL
                 currentTicketCount = int.Parse(getItemResult.Item["GachaTickets"].N);
             }
 
-            if (currentTicketCount < 20)
+            if (currentTicketCount < 30)
             {
                 // El usuario no tiene suficientes tickets, devuelve un error
                 return;
